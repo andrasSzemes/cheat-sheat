@@ -1,0 +1,39 @@
+
+.block {
+    background-color: #f5f5f5;
+    padding: 6px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0px grey;margin:15px 0px;
+    padding-bottom: 1px;
+    font-size:13px;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+code {
+    font-size: 12px;
+}
+.block2 {
+    background-color: #fffae7;
+    padding: 6px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0px grey;margin:15px 0px;
+    padding-bottom: 1px;
+    font-size:13px;
+    color: #7c1212;
+    font-weight: 600
+}
+
+.detail .long {
+    display: none;
+  }
+
+  .detail:hover .short {
+    display: none;
+  }
+  .detail:hover .long {
+    display: inline;
+  }
+
+  .detail .short {
+    background-color: #FFF6E9;
+  }
